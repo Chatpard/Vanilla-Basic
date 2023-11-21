@@ -2,7 +2,7 @@
   "name": "vanilla-basic",
   "version": "1.0.0",
   "scripts": {
-    "build": "copy -a src dest",
+    "build": "cp -a src dest",
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
   }
 }
