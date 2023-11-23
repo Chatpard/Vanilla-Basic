@@ -17,7 +17,7 @@
     (async function(){
       const {text} = await( await fetch(`functions/message`)).json();
       document.querySelector('#name').textContent = text;
-    });
+    }());
   </script>
 </body>
 
