@@ -1,8 +1,14 @@
 {
   "name": "vanilla-basic",
   "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "build": "cp -a src dest",
-    "start": "sirv ./src public --cors --single --no-clear --port 8000"
-  }
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  },
+  "devDependencies": {},
+  "main": "src/functions/*.js"
 }
