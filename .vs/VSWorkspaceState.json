@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.devcontainer",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\src",
+    "\\src\\functions"
   ],
-  "SelectedNode": "\\C:\\Users\\chris\\Source\\Repos\\Vanilla-Basic",
+  "SelectedNode": "\\src\\functions\\message.js",
   "PreviewInSolutionExplorer": false
 }

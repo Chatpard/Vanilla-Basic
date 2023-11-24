@@ -11,7 +11,14 @@
 <body>
   <main>
     <h1>Vanilla JavaScript App</h1>
+    <p>Loading content from the API: <b id="name">...</b></p>
   </main>
+  <script>
+      (async function () {
+          const {message} = await (await fetch('/api/message' + window.location.search)).json();
+          document.querySelector('#name').textContent = message;
+      }());
+  </script>
 </body>
 
 </html>
