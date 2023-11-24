@@ -10,7 +10,7 @@ app.http('message', {
         //const name = request.query.get('name') || await request.text() || 'world';
 
         return {
-            jsonBody: { "message": `Hello, ${request.params.name}` }
+            jsonBody: { "message": `Helllo, ${request.params.name}` }
         };
     }
 });
